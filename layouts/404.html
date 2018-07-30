@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+{{ partial "masthead_hero.html" . }}
+
+<div id="main" role="main">
+  {{ partial "sidebar.html" . }}
+  <article class="page">
+    <div class="page_container">
+      <section class="page_content">
+        {{ partial "masthead_nav.html" . }}
+        <article class="post" itemscope itemtype="http://schema.org/Article">
+          <div class="post-container">
+            <h1>404 Not Found</h1>
+          </div>
+        </article>
+      </section>
+    </div>
+  </article>
+</div> 
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}

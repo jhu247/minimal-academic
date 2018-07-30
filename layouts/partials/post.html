@@ -1,0 +1,26 @@
+<article class="post" itemscope itemtype="http://schema.org/Article">
+  <div class="post-container">
+    <h1 itemprop="name">{{ .Title }}</h1>
+
+    {{ if not .Params.nometadata }}
+      {{ partial "post_metadata" (dict "content" . "is_list" 0) }}
+    {{ end }}
+
+    <div class="post-style" itemprop="articleBody">
+      {{ .Content }}
+    </div>
+
+    {{ if not .Params.notags }}
+      {{ partial "tags.html" . }}
+    {{ end }}
+
+    {{ if not .Params.noshare }}
+      {{ partial "share.html" . }}
+    {{ end }}
+
+    {{ if not .Params.nocomments }}
+      {{ partial "disqus.html" . }}
+    {{ end }}
+
+  </div>
+</article>

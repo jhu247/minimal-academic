@@ -1,0 +1,26 @@
+<div class="sidebar sticky" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <div class="author-avatar">
+    <a href="{{ "/" | relURL }}">
+      <img src="{{ (printf "/img/%s" $.Site.Params.avatar) | relURL }}" alt="Joshua Hu" itemprop="image">
+    </a>
+  </div>
+  <div class="author-content">
+    <h3 class="author-name" itemprop="name">{{ $.Site.Params.name }}</h3>
+    <p class="author-bio" itemprop="description">{{ $.Site.Params.bio }}</p>
+  </div>
+  <div class="author-urls-wrapper">
+    <ul class="author-urls social-icons" aria-hidden="true">
+      <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+        <span itemprop="name">{{ $.Site.Params.location }}</span>
+      </li>
+      {{ range $.Site.Params.social }}
+      <li>
+        <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener">
+          <i class="fa fa-{{ .icon }}"></i>
+          {{ .text }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>  
+  </div>
+</div>
