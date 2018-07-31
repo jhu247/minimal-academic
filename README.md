@@ -1,12 +1,14 @@
 # Minimal Academic
 
-Minimal Academic is a two-column Hugo theme for personal sites. See the live demo [here](https://www.joshuahu.io).
+Minimal Academic is a two-column Hugo theme for personal sites. See the live demo [here](https://www.joshuahu.io) and read about my experience [here](https://www.joshuahu.io/blog/first-hugo).
 
 ![Minimal Academic Theme screenshot](https://raw.githubusercontent.com/jhu724/minimal-academic/master/images/screenshot.png)
 
 This theme is designed to be simple and unobtrusive, featuring a clean color palette and consistent formatting throughout, with an emphasis on a beautiful hero image as the masthead. Google Analytics and Disqus are supported out of the box.
 
 ## Getting started
+
+I'm assuming you've already installed Hugo and have created a new project. You can follow instructions for that [here](https://gohugo.io/getting-started/installing/).
 
 1. In the root folder of your Hugo project, run:
 
@@ -31,8 +33,10 @@ This theme is designed to be simple and unobtrusive, featuring a clean color pal
 ## Contributing
 
 There's still more to do: 
-* haven't gotten around to working on taxonomies yet
+
+* taxonomies
 * support for other languages
+* SCSS with an asset pipeline
 
 Please feel free to submit an issue or create a pull request!
 
