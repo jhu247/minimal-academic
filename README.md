@@ -30,7 +30,11 @@ This theme is designed to be simple and unobtrusive, featuring a clean color pal
 
 ## Contributing
 
-Submit an issue or create a pull request.
+There's still more to do: 
+* haven't gotten around to working on taxonomies yet
+* support for other languages
+
+Please feel free to submit an issue or create a pull request!
 
 ## Credits
 
