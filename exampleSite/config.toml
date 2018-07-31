@@ -9,7 +9,7 @@ title = "Minimal Academic"
 # To display a copyright symbol, type `&copy;`.
 copyright = "&copy; Joshua Hu 2018"
 
-theme = "minimal-academic"
+theme = "../../"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
