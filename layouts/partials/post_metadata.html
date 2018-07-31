@@ -11,11 +11,6 @@
     </time>
   </span>
 
-  {{ $comments_enabled := and $.Site.DisqusShortname (not (or $.Site.Params.disable_comments $.Params.disable_comments)) }}
-  {{ if and $comments_enabled ($.Site.Params.comment_count | default true) }}
-  <a href="{{ $.Permalink }}#disqus_thread"><!-- Count will be inserted here --></a>
-  {{ end}}
-
   {{ if isset $.Params "categories" }}
   {{ $categoriesLen := len $.Params.categories }}
   {{ if gt $categoriesLen 0 }}
