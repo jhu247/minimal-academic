@@ -40,6 +40,10 @@ There's still more to do:
 
 Please feel free to submit an issue or create a pull request!
 
+## License
+
+This theme is released under the MIT License. For more information, please read the [license](https://github.com/jhu724/minimal-academic/blob/master/LICENSE).
+
 ## Credits
 
 * Initial Hugo template used to get started: [Hugo Academic](https://sourcethemes.com/academic/)
