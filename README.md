@@ -2,7 +2,7 @@
 
 Minimal Academic is a two-column Hugo theme for personal sites. See the live demo [here](https://www.joshuahu.io) and read about my experience [here](https://www.joshuahu.io/blog/first-hugo).
 
-![Minimal Academic Theme screenshot](https://raw.githubusercontent.com/jhu724/minimal-academic/master/images/screenshot.png)
+![Minimal Academic Theme screenshot](https://raw.githubusercontent.com/jhu247/minimal-academic/master/images/screenshot.png)
 
 This theme is designed to be simple and unobtrusive, featuring a clean color palette and consistent formatting throughout, with an emphasis on a beautiful hero image as the masthead. Google Analytics and Disqus are supported out of the box.
 
@@ -14,7 +14,7 @@ I'm assuming you've already installed Hugo and have created a new project. You c
 
 	```bash
 	cd themes
-	git clone https://github.com/jhu724/minimal-academic.git
+	git clone https://github.com/jhu247/minimal-academic.git
 	```
 
 2. The `exampleSite` directory contains all of the necessary resources to launch the site. Simple run `hugo server` from here and point your browser to `http://localhost:1313/` to test it out.
@@ -42,7 +42,7 @@ Please feel free to submit an issue or create a pull request!
 
 ## License
 
-This theme is released under the MIT License. For more information, please read the [license](https://github.com/jhu724/minimal-academic/blob/master/LICENSE).
+This theme is released under the MIT License. For more information, please read the [license](https://github.com/jhu247/minimal-academic/blob/master/LICENSE).
 
 ## Credits
 

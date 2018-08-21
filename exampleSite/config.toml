@@ -69,7 +69,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "instagram"
     icon_pack = "fa"
-    link = "//instagram.com/jhu724"
+    link = "//instagram.com/jhu247"
     text = "Instagram"
 
   [[params.social]]
@@ -81,13 +81,13 @@ enableGitInfo = false
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/jhu724"
+    link = "//twitter.com/jhu247"
     text = "Twitter"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/jhu724"
+    link = "//github.com/jhu247"
     text = "Github"
 
 # Taxonomies.

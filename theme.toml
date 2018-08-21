@@ -3,7 +3,7 @@
 
 name = "Minimal Academic"
 license = "MIT"
-licenselink = "https://github.com/jhu724/minimal-academic/blob/master/LICENSE"
+licenselink = "https://github.com/jhu247/minimal-academic/blob/master/LICENSE"
 description = "A two-column Hugo theme for personal sites inspired by Hugo Academic & Minimal Mistakes."
 homepage = "https://joshuahu.io/"
 tags = ["blog", "responsive", "minimal", "personal", "clean", "simple", "portfolio", "minimalist", "projects"]
