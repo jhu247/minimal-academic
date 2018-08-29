@@ -17,7 +17,7 @@ I'm assuming you've already installed Hugo and have created a new project. You c
 	git clone https://github.com/jhu247/minimal-academic.git
 	```
 
-2. The `exampleSite` directory contains all of the necessary resources to launch the site. Due to #3, you will need to change the `theme` value to `"../../"`. Run `hugo server` from here and point your browser to `http://localhost:1313/` to test it out.
+2. The `exampleSite` directory contains all of the necessary resources to launch the site. Due to [#3](/issues/3), you will need to change the `theme` value to `"../../"`. Run `hugo server` from here and point your browser to `http://localhost:1313/` to test it out.
 
 3. Copy `config.toml` from `exampleSite` to your project's root folder to use it. Note that you'll need to change the `theme` value to `minimal-academic` for it to work. This is also where you'll change the title of your site, add your own social media links, configure Google Analytics and Disqus, etc.
 
