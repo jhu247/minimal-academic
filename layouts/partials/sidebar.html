@@ -1,7 +1,7 @@
 <div class="sidebar sticky" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <div class="author-avatar">
     <a href="{{ "/" | relURL }}">
-      <img src="{{ (printf "/img/%s" $.Site.Params.avatar) | relURL }}" alt="Joshua Hu" itemprop="image">
+      <img src="{{ (printf "/img/%s" $.Site.Params.avatar) | relURL }}" alt="{{ $.Site.Params.name }}" itemprop="image">
     </a>
   </div>
   <div class="author-content">
