@@ -165,16 +165,12 @@ p > code:before, p > code:after, a > code:before, a > code:after, li > code:befo
   letter-spacing: -.2em;
 }
 figure {
-  display: -webkit-box;
-  display: flex;
+  display: table;
 
-  margin: 2em 0;
+  margin-right: auto;
+  margin-left: auto;
 
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: start;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  text-align: center;
 }
 figure img, figure iframe, figure .fluid-width-video-wrapper {
   margin-bottom: 1em;
@@ -657,9 +653,9 @@ nav li ul, nav li ol {
 }
 
 .post-style img, .post-style video {
-  margin-top: 60px;
+  margin-top: 1em;
   margin-right: auto;
-  margin-bottom: 60px;
+  margin-bottom: 1em;
   margin-left: auto;
   padding: 0;
 }
@@ -670,11 +666,6 @@ nav li ul, nav li ol {
 }
 
 .post-style figure {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-.post-style figure img {
   margin-top: 0;
   margin-bottom: 0;
 }
