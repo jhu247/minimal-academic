@@ -15,7 +15,7 @@
       </li>
       {{ range $.Site.Params.social }}
       <li>
-        <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener">
+        <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-{{ .icon }}"></i>
           {{ .text }}
         </a>
