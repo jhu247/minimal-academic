@@ -11,10 +11,6 @@
       {{ .Content }}
     </div>
 
-    {{ if not .Params.notags }}
-      {{ partial "tags.html" . }}
-    {{ end }}
-
     {{ if not .Params.noshare }}
       {{ partial "share.html" . }}
     {{ end }}
