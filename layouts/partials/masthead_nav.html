@@ -1,8 +1,8 @@
 <div class="navbar-hero">
 	<nav>
-		<a href="/">Home</a>&nbsp&nbsp•&nbsp&nbsp
-		<a href="/projects">Projects</a>&nbsp&nbsp•&nbsp&nbsp
-		<a href="/blog">Blog</a>&nbsp&nbsp•&nbsp&nbsp
-		<a href="/about">About</a>
+		{{ range $i, $e := $.Site.Params.menu }}
+			{{ if $i }}&nbsp&nbsp•&nbsp&nbsp{{ end }}
+			<a href="{{ $e.url | relURL }}">{{ $e.name }}</a>
+		{{ end }}
 	</nav>
 </div>

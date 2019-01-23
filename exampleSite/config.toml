@@ -66,6 +66,8 @@ enableGitInfo = false
   #   Anonymize IP in Google Analytics (if enabled)
   privacy_pack = false
 
+  # Social links
+  # Shown in sidebar, icons from Font Awesome
   [[params.social]]
     icon = "instagram"
     icon_pack = "fa"
@@ -89,6 +91,23 @@ enableGitInfo = false
     icon_pack = "fa"
     link = "//github.com/jhu247"
     text = "Github"
+
+  # Header menu links
+  [[params.menu]]
+    name = "Home"
+    url = "/"
+
+  [[params.menu]]
+    name = "Projects"
+    url = "/projects"
+
+  [[params.menu]]
+    name = "Blog"
+    url = "/blog"
+
+  [[params.menu]]
+    name = "About"
+    url = "/about"
 
 # Taxonomies.
 # [taxonomies]
