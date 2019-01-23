@@ -34,7 +34,6 @@ I'm assuming you've already installed Hugo and have created a new project. You c
 
 There's still more to do: 
 
-* taxonomies
 * support for other languages
 * SCSS with an asset pipeline
 
