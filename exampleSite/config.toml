@@ -94,19 +94,19 @@ enableGitInfo = false
 
   # Header menu links
   [[params.menu]]
-    name = "Home"
+    label = "Home"
     url = "/"
 
   [[params.menu]]
-    name = "Projects"
+    label = "Projects"
     url = "/projects"
 
   [[params.menu]]
-    name = "Blog"
+    label = "Blog"
     url = "/blog"
 
   [[params.menu]]
-    name = "About"
+    label = "About"
     url = "/about"
 
 # Taxonomies.
