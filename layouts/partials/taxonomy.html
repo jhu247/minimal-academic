@@ -5,7 +5,7 @@
 			<section class="page_content">
 				{{ partial "masthead_nav.html" . }}
 				<div class="recent-post-container">
-					<h1 class="taxonomy_title">{{ .Title}} <span class="taxonomy_rss"> -&nbsp&nbsp<a href="./index.xml"><i class="fa fa-rss"></i> RSS</a></span></h1>
+					<h1 class="taxonomy_title">{{ .Title}} <span class="taxonomy_rss"> -&nbsp&nbsp<a href="{{ .RSSLink | relURL }}"><i class="fa fa-rss"></i> RSS</a></span></h1>
 					{{ partial "recent_posts.html" . }}
 				</div>
 			</section>
