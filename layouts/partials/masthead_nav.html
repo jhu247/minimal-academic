@@ -2,7 +2,7 @@
 	<nav>
 		{{ range $k, $v := $.Site.Params.menu }}
 			{{ if $k }}&nbsp&nbsp•&nbsp&nbsp{{ end }}
-			<a href="{{ $v.url | relURL }}">{{ $v.label }}</a>
+			<a href="{{ $v.link | relURL }}">{{ $v.text }}</a>
 		{{ end }}
 	</nav>
 </div>
