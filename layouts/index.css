@@ -589,6 +589,14 @@ nav li ul, nav li ol {
   margin-bottom: 40px;
 }
 
+.taxonomy_title {
+  font-size: 2.345em;
+}
+
+.taxonomy_rss {
+  font-size: 0.5em;
+}
+
 /* A post */
 
 .post-container {

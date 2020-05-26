@@ -13,15 +13,28 @@
 
   {{ if isset $.Params "categories" }}
   {{ $categoriesLen := len $.Params.categories }}
-  {{ if gt $categoriesLen 0 }}
-  <span class="post-categories">
-    <i class="fa fa-folder"></i>
-    {{ range $k, $v := $.Params.categories }}
-    <a href="{{ ($.Site.GetPage "taxonomyTerm" "categories" .).Permalink }}">{{ . }}</a
-    >{{ if lt $k (sub $categoriesLen 1) }}, {{ end }}
+    {{ if gt $categoriesLen 0 }}
+    <span class="post-categories">
+      &nbsp&nbsp<a href="/categories/"><i class="fa fa-folder"></a></i>
+      {{ range $k, $v := $.Params.categories }}
+      <a href="{{ ($.Site.GetPage (printf "/categories/%s" (lower .)) ).Permalink }}">{{ . }}</a>
+      {{ if lt $k (sub $categoriesLen 1) }}, {{ end }}
+      {{ end }}
+    </span>
     {{ end }}
-  </span>
   {{ end }}
+
+  {{ if isset $.Params "tags" }}
+  {{ $tagsLen := len $.Params.tags }}
+    {{ if gt $tagsLen 0 }}
+    <span class="post-tags">
+      &nbsp&nbsp<a href="/tags/"><i class="fa fa-tags"></a></i>
+      {{ range $k, $v := $.Params.tags }}
+      <a href="{{ ($.Site.GetPage (printf "/tags/%s" (lower .)) ).Permalink }}">{{ . }}</a>
+      {{ if lt $k (sub $tagsLen 1) }}, {{ end }}
+      {{ end }}
+    </span>
+    {{ end }}
   {{ end }}
 
 </div>
